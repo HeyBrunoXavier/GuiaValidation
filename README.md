@@ -36,7 +36,7 @@ const cookie = require("cookie-parser");
 ### GET /
 Esse endpoint é responsável por carregar a página principal.
 #### Parameters
-Nenhum,
+Nenhum.
 
 ### POST /form
 Esse endpoint é responsável por fazer o processo de validação do formulário.
