@@ -1,7 +1,7 @@
 # GuiaValidation
 ##Um guia de como fazer a validação de formulários utilizando algumas bibliotecas do nodejs.
 
-aqui entra uma imagem...
+![Formulario](https://user-images.githubusercontent.com/50187031/90700630-ad43ed00-e25c-11ea-9b1c-4c73902425f1.png)
 
 ### Bibliotecas utilizadas
 
@@ -31,6 +31,13 @@ const bodyParser = require("body-parser");
 ```
 const cookie = require("cookie-parser");
 ```
+# End Point
+
+### GET /
+Esse endpoint é responsável por carregar a página principal.
+#### Parameters
+Nenhum,
+
 ### POST /form
 Esse endpoint é responsável por fazer o processo de validação do formulário.
 #### Parameters
